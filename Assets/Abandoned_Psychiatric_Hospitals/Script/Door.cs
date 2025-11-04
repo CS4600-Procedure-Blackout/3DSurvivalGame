@@ -1,70 +1,69 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
-public class Door : MonoBehaviour
+[RequireComponent(typeof(Collider))] // this will be your trigger
+public class AutoDoorSimple : MonoBehaviour
 {
+    [Header("Motion")]
+    public Transform doorLeaf;          // the mesh panel that should swing; if left empty, rotates this object
+    public float openAngle = 90f;       // how far to swing (around local Y)
+    public float speed = 2f;            // swing speed
 
-    bool trig, open;//trig-проверка входа выхода в триггер(игрок должен быть с тегом Player) open-закрыть и открыть дверь
-    public float smooth = 2.0f;//скорость вращения
-    public float DoorOpenAngle = 90.0f;//угол вращения 
-    private Vector3 defaulRot;
-    private Vector3 openRot;
-    public Text txt;//text 
-    // Start is called before the first frame update
-    void Start()
+    [Header("Logic")]
+    public string playerTag = "Player"; // your player MUST be tagged Player
+    public bool closeOnExit = true;     // auto-close when player leaves
+
+    // internal
+    private bool inTrigger = false;
+    private bool open = false;
+    private Quaternion rotClosed, rotOpen;
+    private Collider triggerCol;
+    private Collider[] solids;          // all non-trigger colliders we’ll disable while open
+
+    void Awake()
     {
-        defaulRot = transform.eulerAngles;
-        openRot = new Vector3(defaulRot.x, defaulRot.y + DoorOpenAngle, defaulRot.z);
+        triggerCol = GetComponent<Collider>();
+        triggerCol.isTrigger = true;                    // make sure this is a trigger
+
+        if (!doorLeaf) doorLeaf = transform;           // rotate self if no child assigned
+        rotClosed = doorLeaf.localRotation;
+        rotOpen   = Quaternion.Euler(
+                        doorLeaf.localEulerAngles.x,
+                        doorLeaf.localEulerAngles.y + openAngle,
+                        doorLeaf.localEulerAngles.z);
+
+        // collect ALL non-trigger colliders under this door (frame/leaf/LOD etc.)
+        solids = GetComponentsInChildren<Collider>(true);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (open)//открыть
+        // open while player is inside; close when they leave (if closeOnExit)
+        if (inTrigger) open = true;
+        else if (closeOnExit) open = false;
+
+        // swing
+        var target = open ? rotOpen : rotClosed;
+        doorLeaf.localRotation = Quaternion.Slerp(doorLeaf.localRotation, target, Time.deltaTime * speed);
+
+        // disable EVERY non-trigger collider while open, re-enable when closed
+        if (solids != null)
         {
-            transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, openRot, Time.deltaTime * smooth);
-        }
-        else//закрыть
-        {
-            transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, defaulRot, Time.deltaTime * smooth);
-        }
-        if (Input.GetKeyDown(KeyCode.E) && trig)
-        {
-            open = !open;
-        }
-        if (trig)
-        {
-            if (open)
+            for (int i = 0; i < solids.Length; i++)
             {
-                txt.text = "Close E";
-            }
-            else
-            {
-                txt.text = "Open E";
+                var c = solids[i];
+                if (!c || c == triggerCol || c.isTrigger) continue;
+                c.enabled = !open;
             }
         }
     }
-    private void OnTriggerEnter(Collider coll)//вход и выход в\из  триггера 
+
+    void OnTriggerEnter(Collider other)
     {
-        if (coll.tag == "Player")
-        {
-            if (!open)
-            {
-                txt.text = "Close E ";
-            }
-            else
-            {
-                txt.text = "Open E";
-            }
-            trig = true;
-        }
+        if (other.CompareTag(playerTag)) inTrigger = true;
     }
-    private void OnTriggerExit(Collider coll)//вход и выход в\из  триггера 
+
+    void OnTriggerExit(Collider other)
     {
-        if (coll.tag == "Player")
-        {
-            txt.text = " ";
-            trig = false;
-        }
+        if (other.CompareTag(playerTag)) inTrigger = false;
     }
 }
