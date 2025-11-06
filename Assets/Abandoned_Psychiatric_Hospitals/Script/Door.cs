@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Collider))] // this will be your trigger
+[RequireComponent(typeof(Collider))] 
 public class AutoDoorSimple : MonoBehaviour
 {
     [Header("Motion")]
-    public Transform doorLeaf;          // the mesh panel that should swing; if left empty, rotates this object
+    public Transform doorLeaf;          
     public float openAngle = 90f;       // how far to swing (around local Y)
     public float speed = 2f;            // swing speed
 
@@ -22,16 +22,16 @@ public class AutoDoorSimple : MonoBehaviour
     void Awake()
     {
         triggerCol = GetComponent<Collider>();
-        triggerCol.isTrigger = true;                    // make sure this is a trigger
+        triggerCol.isTrigger = true;                    
 
-        if (!doorLeaf) doorLeaf = transform;           // rotate self if no child assigned
+        if (!doorLeaf) doorLeaf = transform;           
         rotClosed = doorLeaf.localRotation;
         rotOpen   = Quaternion.Euler(
                         doorLeaf.localEulerAngles.x,
                         doorLeaf.localEulerAngles.y + openAngle,
                         doorLeaf.localEulerAngles.z);
 
-        // collect ALL non-trigger colliders under this door (frame/leaf/LOD etc.)
+        // collect ALL non-trigger colliders under this door 
         solids = GetComponentsInChildren<Collider>(true);
     }
 
