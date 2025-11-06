@@ -9,7 +9,7 @@ public class AutoDoorSimple : MonoBehaviour
     public float speed = 2f;            // swing speed
 
     [Header("Logic")]
-    public string playerTag = "Player"; // your player MUST be tagged Player
+    public string playerTag = "Player"; 
     public bool closeOnExit = true;     // auto-close when player leaves
 
     // internal
