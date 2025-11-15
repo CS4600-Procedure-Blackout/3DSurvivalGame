@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "3DSurvivalGame.sln"
+    "dotnet.defaultSolution": "3DSurvivalGame_version2.sln"
 }
