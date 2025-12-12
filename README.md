@@ -14,3 +14,16 @@ The repository includes all source files, scripts, scenes, and assets required t
 ## How to Set Up the project
 
 ### Step 1: Clone the repository
+
+https://github.com/CS4600-Procedure-Blackout/3DSurvivalGame.git
+
+Or you can download the ZIP from Github and extract it.
+
+### Step 2: Open the project in Unity
+
+1) Open Unity Hub
+2) Click Add, then Add Project from Disk
+3) Select the folder you cloned
+4) Open with Unity version 2022.3.50f1
+
+### Step 3: Run the Game in Unity
