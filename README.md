@@ -10,3 +10,7 @@
 
 This project is a Unity-based survival horror game created for CS 4600 Game Development Course.
 The repository includes all source files, scripts, scenes, and assets required to open and run the project in Unity.
+
+## How to Set Up the project
+
+### Step 1: Clone the repository
