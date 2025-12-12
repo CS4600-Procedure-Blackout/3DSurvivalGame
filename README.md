@@ -30,3 +30,11 @@ Or you can download the ZIP from Github and extract it.
 
 1) Open the scene:
    #### _Assets/Scenes/SampleScenes.unity_
+2) Press PLAY in the Unity Editor
+
+### Step 4: Build the Game
+
+1) Go to File then Build Settings
+2) Add the scene "SampleScenes" using Add Open Scenes
+3) Choose platform PC, Mac & Linux Standalone
+4) Click Build and choose a folder
