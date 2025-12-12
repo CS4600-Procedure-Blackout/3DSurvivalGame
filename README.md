@@ -45,3 +45,8 @@ WASD: Movement
 
 Mouse: Look/Scene Navigation
 
+F Key: Pick up item from the ground
+
+E Key: Use item from the inventory
+
+G Key: Throw item away
