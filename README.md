@@ -1,6 +1,6 @@
-# Project Setup Instructions
+# Procedure Blackout
 
-## Project name: Procedure Blackout 
+## Project Set Up Instructions 
 
 3D Survival Game by My Lien Tan and Eric Castaneda
 
