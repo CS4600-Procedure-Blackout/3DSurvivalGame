@@ -39,7 +39,7 @@ public class AutoDoorSimple : MonoBehaviour
     {
         // open while player is inside; close when they leave (if closeOnExit)
         if (inTrigger) open = true;
-        else if (closeOnExit) open = false;
+        //else if (closeOnExit) open = false;
 
         // swing
         var target = open ? rotOpen : rotClosed;
