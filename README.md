@@ -42,5 +42,6 @@ Or you can download the ZIP from Github and extract it.
 
 ## Controls
 WASD: Movement
+
 Mouse: Look/Scene Navigation
 
