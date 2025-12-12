@@ -1,4 +1,4 @@
-# 🔎 Procedure Blackout 💉
+# 🔎 Procedure Blackout 💉🩸
 
 ## Project Set Up Instructions 
 
@@ -27,3 +27,6 @@ Or you can download the ZIP from Github and extract it.
 4) Open with Unity version 2022.3.50f1
 
 ### Step 3: Run the Game in Unity
+
+1) Open the scene:
+   #### Assets/Scenes/SampleScenes.unity
