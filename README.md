@@ -29,4 +29,4 @@ Or you can download the ZIP from Github and extract it.
 ### Step 3: Run the Game in Unity
 
 1) Open the scene:
-   #### Assets/Scenes/SampleScenes.unity
+   #### _Assets/Scenes/SampleScenes.unity_
