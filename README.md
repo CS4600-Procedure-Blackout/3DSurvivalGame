@@ -38,3 +38,9 @@ Or you can download the ZIP from Github and extract it.
 2) Add the scene "SampleScenes" using Add Open Scenes
 3) Choose platform PC, Mac & Linux Standalone
 4) Click Build and choose a folder
+5) Run the generated .exe file
+
+## Controls
+WASD: Movement
+Mouse: Look/Scene Navigation
+
