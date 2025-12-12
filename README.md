@@ -6,6 +6,8 @@
 
 ### Youtube link: 
 
+https://www.youtube.com/watch?v=j487eU7QWT0
+
 ## Description: 
 
 This project is a Unity-based survival horror game created for CS 4600 Game Development Course.
