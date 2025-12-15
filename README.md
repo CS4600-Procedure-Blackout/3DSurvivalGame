@@ -55,6 +55,8 @@ Sound is used to quietly shape the player’s experience rather than overwhelm i
 
 Progression is built around observation and interpretation. By reading notes and listening to recordings, the player slowly collects fragments of information scattered throughout the hospital. These clues do not explain themselves all at once, but instead accumulate over time, forming a clearer picture of what may have happened. Once enough evidence is gathered, a final report sequence becomes available, asking the player to reflect on what they have learned. Incorrect conclusions do not immediately end the experience, but suggest that something is still missing and encourage further exploration.
 
+![Image](https://github.com/user-attachments/assets/0941bc3e-ad4e-43af-a468-240b7b800848)
+
 #### 👁️‍🗨️ **<ins>_Intro & Ending Panels_</ins>**
 - Introductory voice sequence with skip option
 - Win and Game Over panels with replay support
