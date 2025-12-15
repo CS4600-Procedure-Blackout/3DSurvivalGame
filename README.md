@@ -23,6 +23,8 @@ The player must explore a hostile and mysterious environment while managing surv
 
 The game is experienced from a first-person perspective, allowing the player to move freely and control the camera in a fully 3D environment. The abandoned psychiatric hospital is designed to feel enclosed and unsettling, with long corridors, forgotten rooms, and dim lighting that encourage slow, cautious exploration. Movement itself becomes part of the tension, as the player is never certain what they might encounter next.
 
+![Image](https://github.com/user-attachments/assets/887a48a6-d1de-4e11-8a8d-3dde94cc0115)
+
 #### 👁️‍🗨️ **<ins>_Narrative-Driven Gameplay_</ins>**
 - Story revealed through written notes and voice-over logs
 - First-person narration from medical staff on night shifts
