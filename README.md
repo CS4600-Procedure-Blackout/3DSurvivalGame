@@ -35,10 +35,14 @@ The story is not presented directly, but gradually revealed through written note
 - Optional voice-over audio for notes
 - Smooth UI transitions with pause handling
 
+Notes can be found and read throughout the map, each contributing a small but important fragment of the overall narrative. Some notes include optional voice-over narration, allowing the player to hear the emotional state behind the written words. Opening and closing notes transitions smoothly into and out of gameplay, maintaining immersion while temporarily shifting the player into a focused reading experience.
+
 #### 👁️‍🗨️ **_Audio-Based Atmosphere_**
 - Environmental ambience and sound effects
 - Voice-over narration for intro and notes
 - Psychological horror sound design
+
+Sound is used to quietly shape the player’s experience rather than overwhelm it. The hospital is filled with low, constant ambience-distant echoes, faint mechanical hums, and sounds that are difficult to place. Voice-over narration appears during the introduction and in selected notes, adding a human presence to otherwise empty spaces. The audio design focuses on psychological discomfort, creating unease through silence, subtle cues, and uncertainty instead of sudden or aggressive effects.
 
 #### 👁️‍🗨️ **_Clue & Progression System_**
 - Collect clues by reading notes
