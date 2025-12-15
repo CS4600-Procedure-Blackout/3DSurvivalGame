@@ -32,6 +32,11 @@ The game is experienced from a first-person perspective, allowing the player to 
 
 The story is not presented directly, but gradually revealed through written notes and voice-over logs scattered throughout the hospital. Many of these accounts come from medical staff working night shifts, capturing moments of fear, doubt, and confusion. As more pieces are discovered, the player begins to question whether the events described are supernatural in nature or the result of human actions and psychological breakdowns.
 
+#### 👁️‍🗨️ **<ins>_Health & Status System (Hydration and Sanity)_</ins>**
+The player’s condition is represented through status bars rather than a single traditional health system. **Hydration** reflects the player’s physical endurance over time, while **Sanity** represents mental stability within an isolating and unsettling environment. When the hydration bar reaches zero, the game ends, signifying that the player was unable to endure long enough to uncover the secrets of the abandoned psychiatric hospital.
+
+As sanity decreases, the player may begin to experience audio hallucinations, creating uncertainty about what is real and what is imagined. Additional hallucination effects and visual distortions are planned for future development. Items found throughout the hospital can temporarily restore these states, but resources are limited. Managing hydration and sanity becomes an ongoing concern, reinforcing the idea that survival is not only about staying alive, but remaining mentally and physically capable of continuing the investigation.
+
 #### 👁️‍🗨️ **<ins>_Interactive Notes System_</ins>**
 - Readable notes placed throughout the map
 - Optional voice-over audio for notes
