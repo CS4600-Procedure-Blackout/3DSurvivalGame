@@ -17,7 +17,7 @@ The player must explore a hostile and mysterious environment while managing surv
 
 ## <ins> Features </ins>
 
-#### 👁️‍🗨️ **_First-Person Exploration_**
+#### 👁️‍🗨️ **<ins>_First-Person Exploration_<ins>**
 - Free movement and camera control in a 3D environment
 - Immersive abandoned psychiatric hospital setting
 
