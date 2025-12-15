@@ -75,7 +75,7 @@ The game opens with a short introductory voice sequence that establishes mood ra
 - Cursor and time control for seamless transitions
 - Replay functionality without restarting the editor
 
-## _Controls_
+## 🕹️ Controls
 
 - Use **W / A / S / D** for movements
 - Use **Mouse** to look around
