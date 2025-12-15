@@ -51,13 +51,15 @@ Sound is used to quietly shape the player’s experience rather than overwhelm i
 
 Progression is built around observation and interpretation. By reading notes and listening to recordings, the player slowly collects fragments of information scattered throughout the hospital. These clues do not explain themselves all at once, but instead accumulate over time, forming a clearer picture of what may have happened. Once enough evidence is gathered, a final report sequence becomes available, asking the player to reflect on what they have learned. Incorrect conclusions do not immediately end the experience, but suggest that something is still missing and encourage further exploration.
 
-#### 👁️‍🗨️ **_Intro & Ending Panels_**
+#### 👁️‍🗨️ **<ins>_Intro & Ending Panels_</ins>**
 - Introductory voice sequence with skip option
 - Win and Game Over panels with replay support
 
 The game opens with a short introductory voice sequence that establishes mood rather than providing direct answers. Returning players are given the option to skip this sequence. The ending is determined by the player’s conclusions, leading to either a win or a game over panel. In both cases, the player is allowed to replay the game without restarting the project, reinforcing the investigative nature of the experience.
 
-#### 👁️‍🗨️ **_UI & Game Flow Management_**
+![Image](https://github.com/user-attachments/assets/2421f89f-ad03-483c-9149-d3ef528ae924)
+
+#### 👁️‍🗨️ **<ins>_UI & Game Flow Management_</ins>**
 - Central GameManager handling UI states
 - Cursor and time control for seamless transitions
 - Replay functionality without restarting the editor
