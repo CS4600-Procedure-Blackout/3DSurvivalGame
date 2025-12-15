@@ -8,3 +8,10 @@ The player must explore a hostile and mysterious environment while managing surv
 
 ## <ins>_Set Up_</ins>
 1. Open the project using **_Unity 2022.3.50f1 (LTS)_**
+2. Open the main scene:
+   ```
+   Assets/Scenes/SampleScene.unity
+   ```
+4. Press **Play** in the Unity Editor to start the game.
+5. Make sure your audio is enabled (headphone recommended for full experience).
+6. 
