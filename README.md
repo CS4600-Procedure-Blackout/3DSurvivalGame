@@ -1,12 +1,12 @@
-# Procedure Blackout 💉🩸
-## <ins> Introduction </ins>
+# 🔎 Procedure Blackout 💉🩸
+## Introduction
 A first-person psychological horror **survival investigation** game set in an abandoned psychiatric hospital.
 
 The player must explore a hostile and mysterious environment while managing survival conditions such as **hydration and sanity**, using limited tools and resources to stay functional. As the investigation progresses, the player finds clues/reads notes, and uncovers the truth behind a series of disturbing events hidden within the hospital.
 
 ![Image](https://github.com/user-attachments/assets/7b2c1a34-ea60-4ce3-a06e-81f3d9e26dfa)
 
-## <ins> Set Up </ins>
+## Set Up
 1. Open the project using **_Unity 2022.3.50f1 (LTS)_**
 2. Open the main scene:
    ```
@@ -15,22 +15,22 @@ The player must explore a hostile and mysterious environment while managing surv
 4. Press **Play** in the Unity Editor to start the game.
 5. Make sure your audio is enabled (headphone recommended for full experience).
 
-## <ins> Features </ins>
+## Features
 
-#### 👁️‍🗨️ **<ins>_First-Person Exploration_<ins>**
+#### 👁️‍🗨️ **<ins>_First-Person Exploration_</ins>**
 - Free movement and camera control in a 3D environment
 - Immersive abandoned psychiatric hospital setting
 
 The game is experienced from a first-person perspective, allowing the player to move freely and control the camera in a fully 3D environment. The abandoned psychiatric hospital is designed to feel enclosed and unsettling, with long corridors, forgotten rooms, and dim lighting that encourage slow, cautious exploration. Movement itself becomes part of the tension, as the player is never certain what they might encounter next.
 
-#### 👁️‍🗨️ **_Narrative-Driven Gameplay_**
+#### 👁️‍🗨️ **<ins>_Narrative-Driven Gameplay_</ins>**
 - Story revealed through written notes and voice-over logs
 - First-person narration from medical staff on night shifts
 - Gradual uncovering of truth vs hallucination
 
 The story is not presented directly, but gradually revealed through written notes and voice-over logs scattered throughout the hospital. Many of these accounts come from medical staff working night shifts, capturing moments of fear, doubt, and confusion. As more pieces are discovered, the player begins to question whether the events described are supernatural in nature or the result of human actions and psychological breakdowns.
 
-#### 👁️‍🗨️ **_Interactive Notes System_**
+#### 👁️‍🗨️ **<ins>_Interactive Notes System_</ins>**
 - Readable notes placed throughout the map
 - Optional voice-over audio for notes
 - Smooth UI transitions with pause handling
