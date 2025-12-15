@@ -37,6 +37,8 @@ The story is not presented directly, but gradually revealed through written note
 
 Notes can be found and read throughout the map, each contributing a small but important fragment of the overall narrative. Some notes include optional voice-over narration, allowing the player to hear the emotional state behind the written words. Opening and closing notes transitions smoothly into and out of gameplay, maintaining immersion while temporarily shifting the player into a focused reading experience.
 
+![Image](https://github.com/user-attachments/assets/dad9b0e7-a6f5-4f6f-8c4e-aca4571f885d)
+
 #### 👁️‍🗨️ **<ins>_Audio-Based Atmosphere_</ins>**
 - Environmental ambience and sound effects
 - Voice-over narration for intro and notes
