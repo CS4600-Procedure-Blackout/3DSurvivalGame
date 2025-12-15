@@ -1,4 +1,4 @@
-# Procedure Blackout 
+# Procedure Blackout 💉🩸
 ## <ins>_Introduction_</ins>
 A first-person psychological horror **survival investigation** game set in an abandoned psychiatric hospital.
 
