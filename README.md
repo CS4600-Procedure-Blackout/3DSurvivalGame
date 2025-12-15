@@ -17,39 +17,39 @@ The player must explore a hostile and mysterious environment while managing surv
 
 ## <ins>_Features_</ins>
 
-#### **_First-Person Exploration_**
+#### 👁️‍🗨️ **_First-Person Exploration_**
 - Free movement and camera control in a 3D environment
 - Immersive abandoned psychiatric hospital setting
 
 The game is experienced from a first-person perspective, allowing the player to move freely and control the camera in a fully 3D environment. The abandoned psychiatric hospital is designed to feel enclosed and unsettling, with long corridors, forgotten rooms, and dim lighting that encourage slow, cautious exploration. Movement itself becomes part of the tension, as the player is never certain what they might encounter next.
 
-#### **_Narrative-Driven Gameplay_**
+#### 👁️‍🗨️ **_Narrative-Driven Gameplay_**
 - Story revealed through written notes and voice-over logs
 - First-person narration from medical staff on night shifts
 - Gradual uncovering of truth vs hallucination
 
 The story is not presented directly, but gradually revealed through written notes and voice-over logs scattered throughout the hospital. Many of these accounts come from medical staff working night shifts, capturing moments of fear, doubt, and confusion. As more pieces are discovered, the player begins to question whether the events described are supernatural in nature or the result of human actions and psychological breakdowns.
 
-### **_Interactive Notes System_**
+#### 👁️‍🗨️ **_Interactive Notes System_**
 - Readable notes placed throughout the map
 - Optional voice-over audio for notes
 - Smooth UI transitions with pause handling
 
-### **_Audio-Based Atmosphere_**
+#### 👁️‍🗨️ **_Audio-Based Atmosphere_**
 - Environmental ambience and sound effects
 - Voice-over narration for intro and notes
 - Psychological horror sound design
 
-### **_Clue & Progression System_**
+#### 👁️‍🗨️ **_Clue & Progression System_**
 - Collect clues by reading notes
 - Unlock a final report (quiz) after enough clues are found
 - Wrong answers require further exploration
 
-### **_Intro & Ending Panels_**
+#### 👁️‍🗨️ **_Intro & Ending Panels_**
 - Introductory voice sequence with skip option
 - Win and Game Over panels with replay support
 
-### **_UI & Game Flow Management_**
+#### 👁️‍🗨️ **_UI & Game Flow Management_**
 - Central GameManager handling UI states
 - Cursor and time control for seamless transitions
 - Replay functionality without restarting the editor
