@@ -6,4 +6,5 @@ The player must explore a hostile and mysterious environment while managing surv
 
 ![Image](https://github.com/user-attachments/assets/7b2c1a34-ea60-4ce3-a06e-81f3d9e26dfa)
 
-## _Set Up_
+## <ins>_Set Up_</ins>
+1. Open the project using **_Unity 2022.3.50f1 (LTS)_**
