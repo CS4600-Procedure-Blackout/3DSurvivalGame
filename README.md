@@ -1,12 +1,12 @@
 # 🔎 Procedure Blackout 💉🩸
-## 🕯️ Introduction 🕯️
+## 🕯️ Introduction 
 A first-person psychological horror **survival investigation** game set in an abandoned psychiatric hospital.
 
 The player must explore a hostile and mysterious environment while managing survival conditions such as **hydration and sanity**, using limited tools and resources to stay functional. As the investigation progresses, the player finds clues/reads notes, and uncovers the truth behind a series of disturbing events hidden within the hospital.
 
 ![Image](https://github.com/user-attachments/assets/7b2c1a34-ea60-4ce3-a06e-81f3d9e26dfa)
 
-## 🔎 Set Up 🔎
+## 🔎 Set Up 
 1. Open the project using **_Unity 2022.3.50f1 (LTS)_**
 2. Open the main scene:
    ```
@@ -15,7 +15,7 @@ The player must explore a hostile and mysterious environment while managing surv
 4. Press **Play** in the Unity Editor to start the game.
 5. Make sure your audio is enabled (headphone recommended for full experience).
 
-## 🩸 Features 🩸
+## 🩸 Features 
 
 #### 👁️‍🗨️ **<ins>_First-Person Exploration_</ins>**
 - Free movement and camera control in a 3D environment
@@ -49,9 +49,13 @@ Sound is used to quietly shape the player’s experience rather than overwhelm i
 - Unlock a final report (quiz) after enough clues are found
 - Wrong answers require further exploration
 
+Progression is built around observation and interpretation. By reading notes and listening to recordings, the player slowly collects fragments of information scattered throughout the hospital. These clues do not explain themselves all at once, but instead accumulate over time, forming a clearer picture of what may have happened. Once enough evidence is gathered, a final report sequence becomes available, asking the player to reflect on what they have learned. Incorrect conclusions do not immediately end the experience, but suggest that something is still missing and encourage further exploration.
+
 #### 👁️‍🗨️ **_Intro & Ending Panels_**
 - Introductory voice sequence with skip option
 - Win and Game Over panels with replay support
+
+The game opens with a short introductory voice sequence that establishes mood rather than providing direct answers. Returning players are given the option to skip this sequence. The ending is determined by the player’s conclusions, leading to either a win or a game over panel. In both cases, the player is allowed to replay the game without restarting the project, reinforcing the investigative nature of the experience.
 
 #### 👁️‍🗨️ **_UI & Game Flow Management_**
 - Central GameManager handling UI states
