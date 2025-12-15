@@ -17,14 +17,18 @@ The player must explore a hostile and mysterious environment while managing surv
 
 ## <ins>_Features_</ins>
 
-### **_First-Person Exploration_**
+#### **_First-Person Exploration_**
 - Free movement and camera control in a 3D environment
 - Immersive abandoned psychiatric hospital setting
 
-### **_Narrative-Driven Gameplay_**
+The game is experienced from a first-person perspective, allowing the player to move freely and control the camera in a fully 3D environment. The abandoned psychiatric hospital is designed to feel enclosed and unsettling, with long corridors, forgotten rooms, and dim lighting that encourage slow, cautious exploration. Movement itself becomes part of the tension, as the player is never certain what they might encounter next.
+
+#### **_Narrative-Driven Gameplay_**
 - Story revealed through written notes and voice-over logs
 - First-person narration from medical staff on night shifts
 - Gradual uncovering of truth vs hallucination
+
+The story is not presented directly, but gradually revealed through written notes and voice-over logs scattered throughout the hospital. Many of these accounts come from medical staff working night shifts, capturing moments of fear, doubt, and confusion. As more pieces are discovered, the player begins to question whether the events described are supernatural in nature or the result of human actions and psychological breakdowns.
 
 ### **_Interactive Notes System_**
 - Readable notes placed throughout the map
