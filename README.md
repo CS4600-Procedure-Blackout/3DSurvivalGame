@@ -6,6 +6,18 @@ The player must explore a hostile and mysterious environment while managing surv
 
 ![Image](https://github.com/user-attachments/assets/7b2c1a34-ea60-4ce3-a06e-81f3d9e26dfa)
 
+## Win/Lose conditions
+
+#### Win Conditions
+
+The player wins by correctly answering all questions in the final report.
+In Procedure Blackout, the player takes on the role of a journalist or detective exploring an abandoned psychiatric hospital. By collecting documents, audio recordings, and environmental clues throughout the hospital, the player gradually uncovers the hidden truth. The final report challenges the player to piece together all the gathered information and draw the correct conclusions.
+
+#### Lose Conditions
+
+The player loses when the hydration bar reaches zero.
+Instead of a traditional death mechanic, the game uses a more grounded and realistic outcome: the player becomes dehydrated and is forced to return home to rest. This design choice reinforces the psychological tone of the game, emphasizing vulnerability and limitation rather than punishment, while allowing the player to return later to continue uncovering the hospital’s secrets.
+
 ## 🔎 Set Up 
 1. Open the project using **_Unity 2022.3.50f1 (LTS)_**
 2. Open the main scene:
