@@ -1,4 +1,7 @@
 # 🔎 Procedure Blackout 💉🩸
+Final project for CS 4700
+By My Lien Tan and Eric Castaneda
+
 ## 🕯️ Introduction 
 A first-person psychological horror **survival investigation** game set in an abandoned psychiatric hospital.
 
