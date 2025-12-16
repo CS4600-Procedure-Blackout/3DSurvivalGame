@@ -1,3 +1,6 @@
+# Report
+
+During the development of *Procedure Blackout*, we encountered several technical and design challenges. This report highlights the most significant issues and the fixes applied.
 
 ### **UI State Conflicts (Cursor & Time Control)**
 
