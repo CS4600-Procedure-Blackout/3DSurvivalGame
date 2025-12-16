@@ -8,7 +8,7 @@ The player must explore a hostile and mysterious environment while managing surv
 
 ## 🔦 Win/Lose conditions
 
-#### <ins> Win Conditions </ins>
+#### <ins> Win Conditions </ins> 📃
 
 The player wins by correctly answering all questions in the final report.
 In Procedure Blackout, the player takes on the role of a journalist or detective exploring an abandoned psychiatric hospital. By collecting documents, audio recordings, and environmental clues throughout the hospital, the player gradually uncovers the hidden truth. The final report challenges the player to piece together all the gathered information and draw the correct conclusions.
